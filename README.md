@@ -10,7 +10,7 @@ The project demonstrates my understanding of **system design**, **distributed co
 
 ---
 
-# 🚀 **Core Microservices & Responsibilities**
+#  **Core Microservices & Responsibilities**
 
 ### 🔹 **1. API Gateway**
 
@@ -59,9 +59,9 @@ The project demonstrates my understanding of **system design**, **distributed co
 
 ---
 
-# ⚙️ **Infrastructure & Tools**
+#  **Infrastructure & Tools**
 
-### 🟧 **Message Broker — RabbitMQ**
+###  **Message Broker — RabbitMQ**
 
 * Enables asynchronous service-to-service communication.
 * Decouples operations and prevents system blocking during heavy processing.
@@ -73,7 +73,7 @@ The project demonstrates my understanding of **system design**, **distributed co
 
 ---
 
-### 🟩 **Caching — Redis**
+###  **Caching — Redis**
 
 * Used as a cache layer for:
 
@@ -84,7 +84,7 @@ The project demonstrates my understanding of **system design**, **distributed co
 
 ---
 
-# 🔐 **Security**
+#  **Security**
 
 * JWT authentication at the gateway.
 * Environment-based configuration using dotenv.
@@ -93,7 +93,7 @@ The project demonstrates my understanding of **system design**, **distributed co
 
 ---
 
-# 📈 **Key Features**
+#  **Key Features**
 
 * Distributed architecture with independent microservices.
 * Event-driven notifications.
@@ -105,7 +105,7 @@ The project demonstrates my understanding of **system design**, **distributed co
 
 ---
 
-# 📌 **Tech Stack Summary**
+#  **Tech Stack Summary**
 
 ### **Backend**
 

@@ -1,6 +1,6 @@
 
 
-# ✅ **Project: Distributed Task Management Microservice System (Node.js / Express / RabbitMQ / Redis)**
+# ✅ ** Task Management Microservice System (Node.js / Express / RabbitMQ / Redis)**
 
 ## **Overview**
 

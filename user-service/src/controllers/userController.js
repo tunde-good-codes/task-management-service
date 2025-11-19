@@ -77,7 +77,7 @@ const loginUser = async (req, res) => {
       logger.warn("Invalid password");
       return res.status(400).json({
         success: false,
-        message: "Invalid password",
+        message: "Invalid password kindly check entry again",
       });
     }
 
@@ -89,10 +89,10 @@ const loginUser = async (req, res) => {
       userId: user._id,
     });
   } catch (e) {
-    logger.error("Login error occured", e);
+    logger.error("Login error occurred", e);
     res.status(500).json({
       success: false,
-      message: "Internal server error",
+      message: "Internal server error: " + e.message,
     });
   }
 };
